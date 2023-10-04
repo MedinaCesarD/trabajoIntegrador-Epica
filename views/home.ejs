@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <meta="discription" content="Blog de interes general">
+    <meta="author" content="Cesar Medina">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!-- menu -->
+    <div class="container-fluid bg-primary bg-inverse text-center">
+        
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">DTUP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="navbar-nav ms-auto">
+
+                    <div class="mx-2"><a href="/admin/nueva-publicacion" class="btn btn-danger">Publicar</a></div>
+                    <div><a href="/admin/Publicaciones" class="btn btn-danger">Publicaciones Realizadas</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <!-- FinMenu -->
+
+    <!-- slider -->
+    <div class="container-fluid slider d-flex justify-content-center item align-items-center">  
+        <div class="text-center text-white">
+            <h3>Mi Blog</h3>
+            <h3 class="lead">El mejor lugar para aprender de todo</h3>
+        </div>
+    </div>
+    <!-- FinSlider -->
+
+    <div>
+    <div class="container mb-5">
+        <h3>De todo un poco...</h3>
+        <h4>Por Medina Cesar</h4>
+        <hr>
+        <div class="row">
+            <!-- articulos -->
+            <div class="col-9">
+                <div class="row">
+                    <main class="gap-2 d-flex flex-column" id="lista-publicaciones"></main>
+                </div>
+            </div>
+       
+            <!-- FinArticulos -->
+            <!-- aside -->
+            <div class="col-3">
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Seguime en...</div>
+                    <div class="card-body">
+                      <h5 class="card-title">facebook</h5>
+                      <p class="card-text">MedinaCesar</p>
+                      <h5 class="card-title">Instagram</h5>
+                      <p class="card-text">MedinaCesar</p>
+                    </div>
+                  </div>
+             </div>
+            <!-- Finaside -->
+        </div>
+       
+    </div>    
+        
+    </div>
+
+    <!-- footer    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="/js/home-usuario.js"></script>
+    <!-- Finfooter -->
+</body>
+</html>
